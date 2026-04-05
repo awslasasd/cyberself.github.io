@@ -2,11 +2,11 @@
 site_name: Cyberself's Notebook
 site_author: Cyberself
 site_description: Cyberself的笔记本
-site_url: "https://cyberself.github.io/"
+site_url: "https://awslasasd.github.io/cyberself/"
 
 # repository information
 repo_name: 'Cyberself/Notes'
-repo_url: 'https://github.com/awslasasd/cyberself.github.io'
+repo_url: 'https://github.com/awslasasd/cyberself'
 
 # copyright
 copyright: Copyright <span style="font-family:Arial;">&copy;</span> 2023-2024 <a href="https://github.com/awslasasd" target="_blank">awslasasd</a>
