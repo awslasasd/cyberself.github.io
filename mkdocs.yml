@@ -237,7 +237,17 @@ nav:
       - 实验 : Class/Class1/example4.md
   - Project:
     - Project/index.md
+    - Project1:
+      - 项目方案: Project/Project1/example1.md
+      - 开发日志: Project/Project1/example2.md
+      - 测试记录: Project/Project1/example3.md
+      - 项目复盘: Project/Project1/example4.md
   - Tools: 
     - Tools/index.md
+    - Tools1:
+      - 工具介绍: Tools/Tools1/example1.md
+      - 安装配置: Tools/Tools1/example2.md
+      - 使用示例: Tools/Tools1/example3.md
+      - 常见问题: Tools/Tools1/example4.md
 
     
