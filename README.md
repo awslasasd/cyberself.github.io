@@ -21,18 +21,31 @@
 
 ```text
 .
-├─ docs/                    # 网站正文内容目录
-│  ├─ Class/               # 课程笔记、复习资料、实验记录等
-│  ├─ Project/             # 项目方案、开发日志、测试记录、项目复盘等
-│  ├─ Tools/               # 工具介绍、安装配置、使用示例、常见问题等
-│  ├─ style/               # 自定义 CSS 与 JavaScript
-│  ├─ index.md             # 首页
-│  └─ links.md             # 友链页面
-├─ hooks/                  # MkDocs 构建钩子
-├─ overrides/              # 主题覆盖模板
-├─ .github/workflows/      # GitHub Actions 自动部署配置
-├─ mkdocs.yml              # 站点导航、主题、插件等主配置文件
-├─ requirements.txt        # 项目依赖列表
+├─ docs/                       # 网站正文内容目录
+│  ├─ Class/                   # 课程笔记、复习资料、实验记录等
+│  │  ├─ Class1/               # 课程 1（example1~4.md）
+│  │  ├─ Class2/               # 课程 2（example1~4.md）
+│  │  └─ index.md              # 课程笔记索引页
+│  ├─ Project/                 # 项目方案、开发日志、测试记录等
+│  │  ├─ Project1/             # 项目 1（example1~4.md）
+│  │  └─ index.md              # 项目索引页
+│  ├─ Tools/                   # 工具介绍、安装配置、使用示例等
+│  │  ├─ Tools1/               # 工具 1（example1~4.md）
+│  │  └─ index.md              # 工具索引页
+│  ├─ friends/                 # 友链数据
+│  │  └─ README.md
+│  ├─ img/                     # 静态图片资源
+│  │  └─ favicon.ico
+│  ├─ style/                   # 自定义 CSS 与 JavaScript
+│  │  ├─ css/                  # counter.css, custom.css, flink.css, toc.css 等
+│  │  └─ js/                   # mathjax.js, toc.js 等
+│  ├─ index.md                 # 网站首页
+│  └─ links.md                 # 友链页面
+├─ hooks/                      # MkDocs 构建钩子
+├─ overrides/                  # 主题覆盖模板
+├─ .github/workflows/          # GitHub Actions 自动部署配置
+├─ mkdocs.yml                  # 站点导航、主题、插件等主配置文件
+├─ requirements.txt            # 项目依赖列表
 └─ README.md
 ```
 
