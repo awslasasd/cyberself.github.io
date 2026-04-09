@@ -369,6 +369,18 @@ body:has(.home-layout) .md-typeset > .home-layout ~ * {
   gap: 0.55rem;
 }
 
+.home-actions--equal {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  width: 100%;
+}
+
+.home-actions--equal .md-button {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
 .home-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -457,6 +469,10 @@ body:has(.home-layout) .md-typeset > .home-layout ~ * {
 @media (max-width: 640px) {
   .home-hero {
     padding: 1rem;
+  }
+
+  .home-actions--equal {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .home-grid {
