@@ -235,6 +235,11 @@ nav:
       - 复习 : Class/Class1/example2.md
       - 回忆卷 : Class/Class1/example3.md
       - 实验 : Class/Class1/example4.md
+    - Class2 :
+      - 笔记 : Class/Class2/example1.md
+      - 复习 : Class/Class2/example2.md
+      - 回忆卷 : Class/Class2/example3.md
+      - 实验 : Class/Class2/example4.md
   - Project:
     - Project/index.md
     - Project1:

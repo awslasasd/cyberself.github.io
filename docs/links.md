@@ -11,10 +11,10 @@ comments: true
     一些朋友们的笔记本！
 
 <div class="flink-list">
+</div>
 
-
-```python
-# 示例
+```html
+<!-- 示例 -->
 <div class="flink-list-item">
     <a href="xxx网站网址" title="donotknow" target="_blank">
         <div class="flink-item-icon">
@@ -25,6 +25,3 @@ comments: true
     </a>
 </div>
 ```
-
-
-</div>
